@@ -27,7 +27,6 @@ public class ServerSide {
         new Thread(new Runnable() {
             @Override
             public void run() {
-               
                 Date date = new Date();
                 printWriter.println(date);
                 printWriter.flush();

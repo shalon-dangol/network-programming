@@ -14,7 +14,7 @@ import java.util.Date;
  *
  * @author Shalon
  */
-public class ServerDemo {
+public class ServerDemoDate {
     public static void main(String[] args) throws IOException {
         ServerSocket sc;
         try{

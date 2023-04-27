@@ -13,7 +13,7 @@ import java.net.Socket;
  *
  * @author Shalon
  */
-public class ClientDemo {
+public class ClientDemoDate {
         public static void main(String[] args) throws IOException {
         Socket sc=new Socket("localhost",3333);
         BufferedReader in=new BufferedReader(new InputStreamReader(sc.getInputStream()));

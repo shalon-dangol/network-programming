@@ -18,9 +18,9 @@ import java.net.Socket;
 public class FIleTransferClient {
     public static DataOutputStream dataOutputStream = null;
     public static void main(String[] args) {
-        try(Socket sc = new Socket("localhost", 5555)) {
+        try(Socket sc = new Socket("192.168.0.115", 3355)) {
            dataOutputStream = new DataOutputStream(sc.getOutputStream());
-           sendFile("");
+           sendFile("C:\\Users\\Shalon\\Desktop\\Unit-8-Fault-Tolerance.pdf");
            dataOutputStream.close();
            sc.close();
         } catch (Exception e) {
